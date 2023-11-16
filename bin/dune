@@ -1,6 +1,5 @@
-(library
- (name tests)
- (libraries oprovl)
- (inline_tests)
- (preprocess (pps ppx_inline_test))
-)
+(executable
+ (public_name oprovl)
+ (name main)
+ (libraries oprovl))
+
