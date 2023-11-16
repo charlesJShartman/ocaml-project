@@ -1,1 +1,7 @@
+(library
+  (name oprovl))
 
+(menhir
+  (modules parser))
+
+(ocamllex lexer)
